@@ -1,0 +1,343 @@
+body html {
+    padding: 0;
+}
+
+.upper {
+    position: absolute;
+    width: 1372px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.btn {
+    background: #0057FF;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+.btn-connectWallet{
+    position: absolute;
+    width: 147px;
+    height: 26px;
+    left: 1178px;
+    top: 12px;
+
+    background: #0057FF;
+    border-radius: 25px;
+}
+.btn-connectWallet:hover {
+    cursor: pointer;
+}
+.btn-connectWallet-text {
+    position: absolute;
+    width: 86px;
+    height: 15px;
+    left: 1208px;
+    top: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+.btn-connectWallet-text:hover {
+    cursor: pointer;
+}
+
+.btn-submit {
+    position: absolute;
+    width: 144px;
+    height: 37px;
+    left: 941px;
+    top: 415px;
+
+    background: #0057FF;
+    border-radius: 10px;
+}
+.btn-submit:hover {
+    cursor: pointer;
+}
+.btn-submit-text {
+    position: absolute;
+    width: 56px;
+    height: 19px;
+    left: 984px;
+    top: 424px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.btn-submit-text:hover {
+    cursor: pointer;
+}
+
+
+
+.header-text {
+    position: absolute;
+    width: 92px;
+    height: 19px;
+    left: 150px;
+    top: 18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+
+.middle {
+    position: absolute;
+    width: 1372px;
+    height: 475px;
+    left: 0px;
+    top: 50px;
+
+    background: #0057FF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+
+.middle-text-1 {
+    position: absolute;
+    width: 417px;
+    height: 91px;
+    left: 150px;
+    top: 156px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    
+    color: #FFFFFF;
+}
+.middle-text-2 {
+    position: absolute;
+    width: 337px;
+    height: 122px;
+    left: 150px;
+    top: 247px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #FFFFFF;
+}
+.middle-text-3 {
+    position: absolute;
+    width: 336px;
+    height: 34px;
+    left: 150px;
+    top: 411px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+.middle-text-4 {
+    position: absolute;
+    width: 377px;
+    height: 34px;
+    left: 855px;
+    top: 130px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.input-board {
+    position: absolute;
+    width: 419px;
+    height: 289px;
+    left: 803px;
+    top: 179px;
+
+    background: #0085FF;
+    border-radius: 20px;
+}
+.input-fullName {
+    position: absolute;
+    width: 287px;
+    height: 37px;
+    left: 847px;
+    top: 210px;
+    outline: 0; 
+    border: 0px;
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.input-telName {
+    position: absolute;
+    width: 287px;
+    height: 37px;
+    left: 847px;
+    top: 260px;
+    outline: 0; 
+    border: 0px;
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.input-twitName {
+    position: absolute;
+    width: 287px;
+    height: 37px;
+    left: 847px;
+    top: 310px;
+    outline: 0; 
+    border: 0px;
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+.select-amount {
+    position: absolute;
+    width: 335px;
+    height: 37px;
+    left: 847px;
+    top: 360px;
+    outline: 0; 
+    border: 0px;
+    background: #FFFFFF;
+    border-radius: 10px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+
+
+
+
+
+.lower-text {
+    position: absolute;
+    width: 668px;
+    height: 58px;
+    left: 352px;
+    top: 569px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    
+    color: #2E2E2E;
+}
+
+
+.table-board {
+    position: absolute;
+    width: 1028px;
+    height: 269px;
+    left: 150px;
+    top: 632px;
+
+    padding: 22px;
+
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+table{
+    border-collapse: collapse;
+}
+table tr {
+    width: 1027px;
+    height: 35px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+th {
+    text-align: left !important;
+}
+
+td {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: flex-end;
+
+    color: #000000;
+}
+
+.table-header {
+    color: #959595;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portal Dapp</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./ABI.js"></script>
+    
+    <link href="style.css" rel="stylesheet">  
+    <link href="https://rsms.me/inter/inter.css" rel="stylesheet">  
+</head>
+<body>
+    <div class="upper"></div>
+        <div class="header-text">Portal Dapp</div>
+        <div class="btn-connectWallet" onclick="connectWallet()"></div>
+            <div class="btn-connectWallet-text" onclick="connectWallet()">Connect Wallet</div>
+
+
+    <div class="middle"></div>
+        <div class="middle-text-1">Portal Dapp</div>
+        <div class="middle-text-2">Invest<br>Track<br>Network</div>
+        <div class="middle-text-2">Invest</div>
+        <div class="middle-text-3">Launching Q4 2022</div>
+        <div class="middle-text-4">Private Sale | Seed Round 1</div>
+
+        <div class="input-board"></div>
+            <input id="fullName" type="text" placeholder="Full Name (Required)" class="input-fullName">
+            <input id="telegram" type="text" placeholder="Telegram Username (Optional)" class="input-telName">
+            <input id="twitter" type="text" placeholder="Twitter Username (Optional)" class="input-twitName">
+            <select id="amount" class="select-amount">
+                <option value="BNB_0.5">0.5 BNB</option>
+                <option value="BNB_0.75">0.75 BNB</option>
+                <option value="BNB_1">1 BNB</option>
+                <option value="BNB_1.25">1.25 BNB</option>
+                <option value="BNB_1.5">1.5 BNB</option>
+                <option value="BNB_1.75">1.75 BNB</option>
+                <option value="BNB_2">2 BNB</option>
+                <option value="BNB_2.25">2.25 BNB</option>
+                <option value="BNB_2.5">2.5 BNB</option>
+                <option value="BNB_2.75">2.75 BNB</option>
+                <option value="BNB_3">3 BNB</option>
+                <option value="BNB_3.25">3.25 BNB</option>
+                <option value="BNB_3.5">3.5 BNB</option>
+                <option value="BNB_3.75">3.75 BNB</option>
+                <option value="BNB_4">4 BNB</option>
+                <option value="BNB_4.25">4.25 BNB</option>
+                <option value="BNB_4.5">4.5 BNB</option>
+                <option value="BNB_4.75">4.75 BNB</option>
+                <option value="BNB_5">5 BNB</option>
+            </select>
+            <div class="btn-submit" onclick="submit()"></div>
+                <div class="btn-submit-text" onclick="submit()">Submit</div>
+
+
+    <div id="test" class="lower-text">Private Sale | Seed Round 1 Investors</div>
+    <div class="table-board">
+        <table>
+            <thead>
+                <tr class="table-header">
+                    <th style="width: 31px; padding-left: 22px;">#</th>
+                    <th style="width: 131px">Name</th>
+                    <th style="width: 328px">Wallet Address</th>
+                    <th style="width: 126px">Telegram</th>
+                    <th style="width: 116px">Twitter</th>
+                    <th style="width: 91px">Amount</th>
+                    <th style="width: 200px">Txn</th>
+                </tr>
+            </thead>
+            <tbody id="table_body">
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
